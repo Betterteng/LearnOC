@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *label1;
+@property (strong, nonatomic) IBOutlet UILabel *label2;
+@property (strong, nonatomic) IBOutlet UILabel *label3;
+
+@property (strong, nonatomic) IBOutlet UIButton *button;
+
+@property (strong, nonatomic) IBOutlet UISwitch *switches;
 
 @end
 
